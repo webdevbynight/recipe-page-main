@@ -1,0 +1,24 @@
+@charset "utf-8";
+@use "../base/mixins" as *;
+
+/** @section General layout */
+body {
+    font-family: var(--text-font);
+    font-size: var(--text-size);
+    color: var(--primary);
+    background: var(--primary-background);
+}
+main {
+    @include css-media-queries($from-breakpoint: medium) {
+        padding: var(--overall-spacing);
+        display: grid;
+        place-items: center;
+    }
+}
+.attribution {
+    font-size: 1.1rem;
+    text-align: center;
+    a {
+        color: inherit;
+    }
+}

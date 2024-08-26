@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+// Variables
+:root {
+    // Fonts
+    --text-font: Outfit, sans-serif;
+    --title-font: "Young Serif", Georgia, serif;
+    --title-line-height: 1;
+    --text-size: 1.6rem;
+    --article-title-size: 4rem;
+    --article-subtitle-size: 2.8rem;
+    --preparation-title-size: 2rem;
+
+    // Colours
+    --primary: #5f564d;
+    --secondary: #854632;
+    --tertiary: #7a284e;
+    --quaternary: #312e2c;
+    --quinary: #e3ddd7;
+    --primary-background: #f3e5d7;
+    --secondary-background: white;
+    --tertiary-background: #fff7fb;
+
+    // Margins, paddings, borders and radius
+    --overall-spacing: 12.8rem 7.6rem;
+    --article-size: 65.6rem;
+    --article-padding: 4rem 3.2rem;
+    --article-radius: 1.2rem;
+    --article-title-margin: 4rem 2.4rem;
+    --article-subtitle-margin-start: 3.2rem;
+    --article-subtitle-margin-end: 2.4rem;
+    --article-subtitle-padding: 3.2rem;
+    --article-subtitle-border: 1px solid var(--quinary);
+    --article-list-margin: .8rem;
+    --article-list-marker-position-inline: -3.2rem;
+    --article-list-marker-bullet-size: .4rem;
+    --article-list-marker-bullet-position-block: calc(var(--article-list-marker-bullet-size)/ -2);
+    --preparation-padding: 2.4rem;
+    --preparation-margin: 3.2rem;
+    --preparation-radius: 1.2rem;
+    --preparation-title-margin: 1.6rem;
+    --image-margin: -4rem -3.2rem 0;
+    --image-radius: 1.2rem;
+    --nutrition-margin: 2.4rem;
+    --nutrition-row-gutter: 1.6rem;
+    --nutrition-row-padding-block: 1.2rem;
+    --nutrition-row-padding-inline: 3.2rem;
+    --nutrition-row-border: 1px solid var(--quinary);
+    --nutrition-column-size: calc(50% - var(--nutrition-row-gutter) / 2);
+}

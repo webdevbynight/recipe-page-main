@@ -1,0 +1,22 @@
+@charset "utf-8";
+@use "sass:list";
+
+/**
+ * @site Recipe page
+ * @author Victor Brito
+ */
+
+// Browser configuration
+@use "base/config" as *;
+
+@use "base/mixins" with (
+    $media-queries-breakpoints: (
+        medium: 656
+    )
+);
+@use "variables";
+@use "base/reset";
+@use "base/print";
+@use "typo/font-face";
+@use "layout/layout";
+@use "article/article";
